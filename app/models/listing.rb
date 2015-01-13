@@ -15,4 +15,5 @@ class Listing < ActiveRecord::Base
   validates :image, :attachment_presence => true
 
   belongs_to :user
+  has_many :orders
 end
