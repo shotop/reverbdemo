@@ -12,5 +12,6 @@ My first attempt at an online market place.  I was thinking something along the 
 * Listing Index page pagination with the will_paginate gem
 * Conceal api keys and other important info with the Figaro gem
 * Front-end built with bootstrap
+* Asset hosting on Dropbox
 
 
