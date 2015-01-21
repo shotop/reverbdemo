@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first attempt at an online market place.  I was thinking something along the lines of reverb.com. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Rails app
+* User Authentication with Devise
+* Users can post listings, buy items, sell items
+* Sellers can view their selling history
+* Buyers can view their buying history
+* I upload images for listings with the paperclip gem
+* Payment processing with Stripe, fully implemented, but hooked into Stripe test accounts
+* Listing Index page pagination with the will_paginate gem
+* Conceal api keys and other important info with the Figaro gem
+* Front-end built with bootstrap
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
